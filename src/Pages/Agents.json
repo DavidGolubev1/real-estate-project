@@ -1,0 +1,52 @@
+{
+    "agents":[
+        {
+            "first_name": "Donald",
+            "second_name":"Duck",
+            "phone": 5551234567,
+            "area_of_intrest": "Houston",
+            "description":"With over a decade of experience in the real estate industry, Donald is a dedicated agent known for his exceptional negotiation skills and deep knowledge of the local market. Whether you're buying or selling, he goes the extra mile to ensure a smooth and successful transaction.",
+            "img_src": "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
+        },
+        {
+            "first_name": "Barbra",
+            "second_name":"Streisand",
+            "phone": 5557788994,
+            "area_of_intrest": "Webster",
+            "description":"As a passionate real estate agent, Barbra is committed to helping her clients find their dream homes. With a keen eye for detail and a personalized approach, she listens to her clients' needs and delivers tailored solutions, making the home buying process a breeze.",
+            "img_src": "https://media.istockphoto.com/id/1317804578/photo/one-businesswoman-headshot-smiling-at-the-camera.jpg?s=612x612&w=0&k=20&c=EqR2Lffp4tkIYzpqYh8aYIPRr-gmZliRHRxcQC5yylY="
+        },
+        {
+            "first_name": "George",
+            "second_name":"Washington",
+            "phone": 5557891235,
+            "area_of_intrest": "Humble",
+            "description":"With a background in construction and a strong understanding of property value, George brings a unique perspective to real estate. His expertise in assessing property potential and guiding clients through investment opportunities makes him a trusted advisor in the industry.",
+            "img_src": "https://t3.ftcdn.net/jpg/01/04/93/56/360_F_104935633_9dB5CW1aSk35RYSXQPYOCudPMku6vMFv.jpg"
+        },
+        {
+            "first_name": "Michelle",
+            "second_name":"Obama",
+            "phone": 5551234568,
+            "area_of_intrest": "Kingwood",
+            "description":"With a friendly and empathetic approach, Michelle puts her clients' needs first. Whether it's finding a cozy family home or securing a profitable investment property, she is dedicated to providing exceptional service and building long-lasting relationships",
+            "img_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL6Mtq6HzDJt_juHwkAirXl-oLBYJlrBzCy7QxvafP-r6tu7k9h-7uQKsmxjQsEmB8KWI&usqp=CAU"
+        },
+        {
+            "first_name": "Stan",
+            "second_name":"Lee",
+            "phone": 555024587,
+            "area_of_intrest": "Porter",
+            "description":"With a vast network of industry connections, Stan is a go-getter who thrives on achieving exceptional results for his clients. His strategic marketing techniques and sharp negotiation skills have earned him a reputation as a top-performing agent in the area.",
+            "img_src": "https://www.looper.com/img/gallery/ranking-every-non-marvel-stan-lee-movie-cameo/l-intro-1654534964.jpg"
+        },
+        {
+            "first_name": "Harley",
+            "second_name":"Quinn",
+            "phone": 5559994315,
+            "area_of_intrest": "Huffman",
+            "description":"Known for her strong work ethic and attention to detail, Jessica is a real estate agent who leaves no stone unturned. With her extensive knowledge of the local market and commitment to client satisfaction, she ensures a seamless experience for both buyers and sellers.",
+            "img_src": "https://media.istockphoto.com/id/1335295926/photo/asian-businesswoman-standing-smiling-at-the-camera.jpg?b=1&s=170667a&w=0&k=20&c=LjSOVOus-AeiTWS-sGHn7toeHzYEJLBq6Vf_PtIb_V0="
+        }
+    ]
+}

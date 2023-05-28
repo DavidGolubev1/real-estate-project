@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid-container {
+    display: grid;
+    width: 80%;
+    margin: 30px 10% 30px 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr 1fr;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: rgb(156, 156, 248) ;
+}
+
+#location {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#rooms {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#salling-status {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#type {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#price {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#descreption {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#house-card-buttons{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#house-card-buttons a{
+    margin-right: 10px;
+}
+
+#house-image {
+    grid-row-start: 1;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    overflow: hidden;
+}
+
+#house-image img{
+    width: 100%;
+    height: 100%;
+}
