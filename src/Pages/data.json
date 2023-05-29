@@ -35,7 +35,7 @@
         "streetAddress": "3010 Paige St",
         "taxAssessedValue": 252701,
         "zestimate": 243250,
-        "zipcode": "77004",
+        "zipcode": 77004,
         "zpid": 112081301
       },
       {
@@ -73,7 +73,7 @@
         "streetAddress": "146 W Whitney St",
         "taxAssessedValue": 152153,
         "zestimate": 249900,
-        "zipcode": "77018",
+        "zipcode": 77018,
         "zpid": 28114795
       },
       {
@@ -111,7 +111,7 @@
         "streetAddress": "3713 Lazy Spring Dr",
         "taxAssessedValue": 358995,
         "zestimate": 420000,
-        "zipcode": "77080",
+        "zipcode": 77080,
         "zpid": 27997528
       },
       {
@@ -145,7 +145,7 @@
         "shouldHighlight": false,
         "state": "TX",
         "streetAddress": "0 Oats St",
-        "zipcode": "77020",
+        "zipcode": 77020,
         "zpid": 2057734306
       },
       {
@@ -183,7 +183,7 @@
         "streetAddress": "15318 McConn St",
         "taxAssessedValue": 200544,
         "zestimate": 291894,
-        "zipcode": "77598",
+        "zipcode": 77598,
         "zpid": 28300032
       },
       {
@@ -231,7 +231,7 @@
         "streetAddress": "10 Versante Ct",
         "taxAssessedValue": 286359,
         "zestimate": 305000,
-        "zipcode": "77070",
+        "zipcode": 77070,
         "zpid": 80538363
       },
       {
@@ -267,7 +267,7 @@
         "state": "TX",
         "streetAddress": "3502 Fawn Creek Dr",
         "taxAssessedValue": 52919,
-        "zipcode": "77339",
+        "zipcode": 77339,
         "zpid": 97620489
       },
       {
@@ -305,7 +305,7 @@
         "streetAddress": "9211 Terrydale Dr",
         "taxAssessedValue": 213234,
         "zestimate": 237707,
-        "zipcode": "77037",
+        "zipcode": 77037,
         "zpid": 28108379
       },
       {
@@ -346,7 +346,7 @@
         "streetAddress": "7223 Crimson Sky Dr",
         "taxAssessedValue": 311503,
         "zestimate": 320002,
-        "zipcode": "77083",
+        "zipcode": 77083,
         "zpid": 80512450
       },
       {
@@ -383,7 +383,7 @@
         "streetAddress": "4007 Bennington St",
         "taxAssessedValue": 39888,
         "zestimate": 75900,
-        "zipcode": "77016",
+        "zipcode": 77016,
         "zpid": 27900131
       },
       {
@@ -422,7 +422,7 @@
         "state": "TX",
         "streetAddress": "Brooke Plan, City Gate",
         "unit": "# DUHMUQ",
-        "zipcode": "77047",
+        "zipcode": 77047,
         "zpid": 2061468477
       },
       {
@@ -460,7 +460,7 @@
         "streetAddress": "2807 Deer Hollow Dr",
         "taxAssessedValue": 379014,
         "zestimate": 489511,
-        "zipcode": "77345",
+        "zipcode": 77345,
         "zpid": 28398583
       },
       {
@@ -496,7 +496,7 @@
         "state": "TX",
         "streetAddress": "1025 Wall St",
         "taxAssessedValue": 109200,
-        "zipcode": "77088",
+        "zipcode": 77088,
         "zpid": 27755158
       },
       {
@@ -532,7 +532,7 @@
         "shouldHighlight": false,
         "state": "TX",
         "streetAddress": "304 E 27th St",
-        "zipcode": "77008",
+        "zipcode": 77008,
         "zpid": 2057735664
       },
       {
@@ -584,7 +584,7 @@
         "streetAddress": "1802 Haverhill Dr",
         "taxAssessedValue": 552455,
         "zestimate": 599900,
-        "zipcode": "77008",
+        "zipcode": 77008,
         "zpid": 28025662
       },
       {
@@ -621,7 +621,7 @@
         "state": "TX",
         "streetAddress": "957 Judiway St #F",
         "unit": "# F",
-        "zipcode": "77018",
+        "zipcode": 77018,
         "zpid": 2057735847
       },
       {
@@ -659,7 +659,7 @@
         "state": "TX",
         "streetAddress": "5115 Nett St",
         "taxAssessedValue": 387625,
-        "zipcode": "77007",
+        "zipcode": 77007,
         "zpid": 27745717
       },
       {
@@ -697,7 +697,7 @@
         "streetAddress": "6427 Cottonwood Park Ln",
         "taxAssessedValue": 387750,
         "zestimate": 492637,
-        "zipcode": "77041",
+        "zipcode": 77041,
         "zpid": 58675485
       },
       {
@@ -735,7 +735,7 @@
         "streetAddress": "830 Gibbs St",
         "taxAssessedValue": 475286,
         "zestimate": 599001,
-        "zipcode": "77009",
+        "zipcode": 77009,
         "zpid": 123236310
       },
       {
@@ -769,7 +769,7 @@
         "shouldHighlight": false,
         "state": "TX",
         "streetAddress": "7513 Angels Landing Ln",
-        "zipcode": "77365",
+        "zipcode": 77365,
         "zpid": 2057736057
       },
       {
@@ -807,7 +807,7 @@
         "streetAddress": "5930 McKnight St",
         "taxAssessedValue": 245498,
         "zestimate": 520000,
-        "zipcode": "77035",
+        "zipcode": 77035,
         "zpid": 28075057
       },
       {
@@ -846,7 +846,7 @@
         "taxAssessedValue": 194245,
         "unit": "# 51",
         "zestimate": 246203,
-        "zipcode": "77057",
+        "zipcode": 77057,
         "zpid": 28098389
       },
       {
@@ -884,7 +884,7 @@
         "streetAddress": "4119 Tidewater Dr",
         "taxAssessedValue": 252669,
         "zestimate": 269761,
-        "zipcode": "77045",
+        "zipcode": 77045,
         "zpid": 28055469
       },
       {
@@ -916,7 +916,7 @@
         "shouldHighlight": false,
         "state": "TX",
         "streetAddress": "24705 Thornbluff",
-        "zipcode": "77336",
+        "zipcode": 77336,
         "zpid": 2057736380
       },
       {
@@ -954,7 +954,7 @@
         "streetAddress": "14106 Meyersville Dr",
         "taxAssessedValue": 154825,
         "zestimate": 209000,
-        "zipcode": "77049",
+        "zipcode": 77049,
         "zpid": 28256090
       },
       {
@@ -990,7 +990,7 @@
         "state": "TX",
         "streetAddress": "1022 Clinton Park St",
         "taxAssessedValue": 39870,
-        "zipcode": "77029",
+        "zipcode": 77029,
         "zpid": 97649472
       },
       {
@@ -1027,7 +1027,7 @@
         "taxAssessedValue": 236925,
         "unit": "Apt 2114",
         "zestimate": 247611,
-        "zipcode": "77030",
+        "zipcode": 77030,
         "zpid": 68428768
       },
       {
@@ -1065,7 +1065,7 @@
         "streetAddress": "15631 Four Season Dr",
         "taxAssessedValue": 251961,
         "zestimate": 295260,
-        "zipcode": "77084",
+        "zipcode": 77084,
         "zpid": 28333832
       },
       {
@@ -1103,7 +1103,7 @@
         "streetAddress": "7926 Hudson St",
         "taxAssessedValue": 193673,
         "zestimate": 199995,
-        "zipcode": "77012",
+        "zipcode": 77012,
         "zpid": 27769628
       },
       {
@@ -1141,7 +1141,7 @@
         "streetAddress": "5116 Pinemont Pl",
         "taxAssessedValue": 218858,
         "zestimate": 264900,
-        "zipcode": "77092",
+        "zipcode": 77092,
         "zpid": 97669119
       },
       {
@@ -1177,7 +1177,7 @@
         "streetAddress": "931 Louise St",
         "taxAssessedValue": 722801,
         "zestimate": 829901,
-        "zipcode": "77009",
+        "zipcode": 77009,
         "zpid": 27813721
       },
       {
@@ -1215,7 +1215,7 @@
         "streetAddress": "10603 Laneview Dr",
         "taxAssessedValue": 341342,
         "zestimate": 425003,
-        "zipcode": "77070",
+        "zipcode": 77070,
         "zpid": 28169038
       },
       {
@@ -1257,7 +1257,7 @@
         "streetAddress": "1111 Prince St",
         "taxAssessedValue": 361708,
         "zestimate": 1476445,
-        "zipcode": "77008",
+        "zipcode": 77008,
         "zpid": 27956488
       },
       {
@@ -1295,7 +1295,7 @@
         "streetAddress": "2026 Sedgie Dr",
         "taxAssessedValue": 209667,
         "zestimate": 332623,
-        "zipcode": "77080",
+        "zipcode": 77080,
         "zpid": 28000581
       },
       {
@@ -1336,7 +1336,7 @@
         "state": "TX",
         "streetAddress": "Donovan Plan, Kingwood-Royal Brook : Bristol Collection",
         "unit": "# 5FFC0J",
-        "zipcode": "77365",
+        "zipcode": 77365,
         "zpid": 2061669120
       },
       {
@@ -1374,7 +1374,7 @@
         "streetAddress": "10187 Beekman Place Dr",
         "taxAssessedValue": 171464,
         "zestimate": 339000,
-        "zipcode": "77043",
+        "zipcode": 77043,
         "zpid": 28167013
       },
       {
@@ -1410,7 +1410,7 @@
         "state": "TX",
         "streetAddress": "5624 Balbo St",
         "zestimate": 369991,
-        "zipcode": "77091",
+        "zipcode": 77091,
         "zpid": 2059470978
       },
       {
@@ -1448,7 +1448,7 @@
         "streetAddress": "2404 Wentworth St",
         "taxAssessedValue": 407500,
         "zestimate": 458494,
-        "zipcode": "77004",
+        "zipcode": 77004,
         "zpid": 27849116
       },
       {
@@ -1486,7 +1486,7 @@
         "streetAddress": "2614 Capitol St",
         "taxAssessedValue": 400000,
         "zestimate": 431529,
-        "zipcode": "77003",
+        "zipcode": 77003,
         "zpid": 121103759
       },
       {
@@ -1527,7 +1527,7 @@
         "streetAddress": "1015 Stanford St",
         "taxAssessedValue": 504099,
         "zestimate": 595674,
-        "zipcode": "77019",
+        "zipcode": 77019,
         "zpid": 80544182
       }
     ],

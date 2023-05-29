@@ -1,67 +1,75 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-#contact-page{
+#contact-page {
     min-height: 66.5vh;
     height: auto;
+    background: rgb(22, 8, 255);
+    background: linear-gradient(180deg, rgba(22, 8, 255, 1) 0%, rgba(9, 98, 121, 1) 45%, rgba(255, 255, 255, 1) 93%);
 }
 
-#contact-grid-container-container{
+#contact-grid-container-container {
     display: flex;
     justify-content: center;
 }
 
-#contact-grid-agent-container{
+#contact-grid-agent-container {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid black;
-    width: 75vw ;
-    height: 30vh ;
+    width: 75vw;
+    height: 30vh;
     overflow: hidden;
     padding: 10px;
+    background: rgb(252,252,252);
+    background: linear-gradient(180deg, rgba(252,252,252,1) 0%, rgba(43,43,219,1) 50%, rgba(255,255,255,1) 100%);
 }
 
-#contact-grid-agent-container img{
+#contact-grid-agent-container img {
     width: 100%;
     height: 100%;
     padding: 10px;
 }
 
-#contact-grid-image{
-    grid-row-start: 1 ;
-    grid-row-end: 4 ;
-    grid-column-start: 1 ;
-    grid-column-end: 2 ;
+#contact-grid-image {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
-#contact-grid-name{
-    grid-row-start: 1 ;
-    grid-row-end: 2 ;
-    grid-column-start: 2 ;
-    grid-column-end: 3 ;
+
+#contact-grid-name {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
     padding: 10px;
 }
-#contact-grid-phone{
-    grid-row-start: 1 ;
-    grid-row-end: 1 ;
-    grid-column-start: 3 ;
-    grid-column-end: 4 ;
+
+#contact-grid-phone {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 4;
     padding: 10px;
 }
-#contact-grid-area{
-    grid-row-start: 2 ;
-    grid-row-end: 3 ;
-    grid-column-start: 2 ;
-    grid-column-end: 3 ;
+
+#contact-grid-area {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
     padding: 10px;
 }
-#contact-grid-description{
-    grid-row-start: 3 ;
-    grid-row-end: 4 ;
-    grid-column-start: 2 ;
-    grid-column-end: 4 ;
+
+#contact-grid-description {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
     padding: 10px;
 }

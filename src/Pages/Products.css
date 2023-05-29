@@ -11,6 +11,7 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
+    height: 100%;
     padding: 20px 5% 0px 5%;
     font-size: large;
     background-color: rgb(69, 69, 231);
@@ -103,14 +104,16 @@
     position: relative;
 }
 
-.product-favorite-heart {
+.heart-settings {
 position: absolute;
-bottom: 5px ;
-right: 5px;
-font-size: 7vh;
+bottom: 25px ;
+right: 30px;
+font-size: 8vh;
 width: auto;
 background-color: transparent;
 cursor: pointer;
-color: red;
+color: grey;
+border: none;
 }
+
 

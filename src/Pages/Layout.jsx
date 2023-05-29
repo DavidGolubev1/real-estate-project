@@ -18,7 +18,7 @@ function Layout() {
                             <div className='nav-bar-list-item'><Link className='linkers' to={"Home"}>Home</Link></div>
                             <div className='nav-bar-list-item'><Link className='linkers' to={"Products"}>Products</Link></div>
                             <div className='nav-bar-list-item'><Link className='linkers' to={"Contact"}>Contact-us</Link></div>
-                            <div className='nav-bar-list-item'><Link className='linkers' to={"HouseCard"}>House card</Link></div>
+                            <div className='nav-bar-list-item'><Link className='linkers' to={"NotFound"}>Login</Link></div>
                         </div>
                     </div>
                     <div id='company-slogen'>
@@ -44,14 +44,11 @@ function Layout() {
                             <a className='social-link' href="https://he-il.facebook.com/"><img className='social-image' src="https://nikeecomproj.netlify.app/icons8-facebook-f-48.png" alt="FaceBook" /></a>
                             <a className='social-link' href="https://twitter.com/"><img className='social-image' src="https://nikeecomproj.netlify.app/icons8-twitter-50.png" alt="Twiter" /></a>
                             <a className='social-link' href="https://www.instagram.com/"><img className='social-image' src="https://nikeecomproj.netlify.app/icons8-instagram-48%20(1).png" alt="Instngram" /></a>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
     );
 };
 export default Layout;

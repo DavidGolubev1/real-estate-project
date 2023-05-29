@@ -5,12 +5,12 @@ import { useState, useEffect } from 'react';
 import { Link, Outlet } from "react-router-dom";
 function Products() {
     let [sortedJason, setSortedJason] = useState([]);
-    let [favoritesArray, setFavoritesArray] = useState([])
     let [mainFiltering, setMainFiltering] = useState("");
     let [houseStatusFilter, setHouseStatusFilter] = useState("");
     let [houseTypeFilter, setHouseTypeFilter] = useState("");
     let [housebedroomFilter, setBedroomFilter] = useState("");
     let [housePriceFilter, setHousePriceFilter] = useState("");
+    let [heartColor, setHeartColor] = useState("grey")
 
     useEffect(() => {
         const houseStatus = document.getElementById("products-house-status-inner-filter");
@@ -38,7 +38,15 @@ function Products() {
             bedRoomsNumber.style.display = "none";
             housePricing.style.display = "block";
         } else if (mainFiltering === "favorites") {
-            setSortedJason(data.results.filter())
+            if (localStorage.length == 0) {
+                console.log("there are no favorites");
+            } else {
+                let letsTry = []
+                for (let i = 0; i < localStorage.length; i++) {
+                   letsTry.push(data.results.filter(item => item.zpid == localStorage.key(i))[0])
+                }
+                setSortedJason(letsTry)
+            }
         } else {
             setSortedJason(data.results)
             houseStatus.style.display = "none";
@@ -46,7 +54,7 @@ function Products() {
             bedRoomsNumber.style.display = "none";
             housePricing.style.display = "none";
         };
-    }, [mainFiltering]);
+    }, [ mainFiltering]);
 
     useEffect(() => {
         if (houseStatusFilter === "for-sale") {
@@ -100,17 +108,15 @@ function Products() {
         }
     }, [housePriceFilter]);
 
-
     function addToLS(cardsId) {
-        localStorage.setItem(JSON.stringify(cardsId), JSON.stringify("hello-world"))
-    return
+        localStorage.setItem(JSON.stringify(cardsId), JSON.stringify("what are you looking at"))
+        return
     }
 
     function removeFromLS(cardsId) {
         localStorage.removeItem(JSON.stringify(cardsId))
-    return
+        return
     }
-
 
     return (
         <div className='products-page' >
@@ -169,7 +175,7 @@ function Products() {
                 let { imgSrc, country, city, bedrooms, bathrooms, price, zpid } = item;
                 return (
                     <div id={`new-card-link-${index}`} key={index} className="products-new-card-container">
-                        <Link className="linkers" to={"./HouseCard"}>
+                        <Link className="linkers" to={"/HouseCard"} state={{ zipId: { zpid } }}>
                             <div className="products-grid-container">
                                 <div className='products-house-image'><img src={imgSrc} alt="" /></div>
                                 <div className='products-country'>Country: {country}</div>
@@ -179,14 +185,17 @@ function Products() {
                                 <div className='products-price'>Price: {price}$</div>
                             </div>
                         </Link>
-                        <button onClick={() => { localStorage.getItem(zpid) == null ? (addToLS(zpid), style = { Color: "red" }) : (removeFromLS(zpid), style = { color: "grey" }) }}
-                            className={`product-favorite-heart ${index}`}>♥</button>
+                        <button id={`heart-${index}`} className="heart-settings"
+                            onClick={() => {
+                                localStorage.getItem(zpid) == null ?
+                                (addToLS(zpid) , document.getElementById(`heart-${index}`).style.color="red"):
+                                (removeFromLS(zpid),document.getElementById(`heart-${index}`).style.color="grey")
+                            }}>
+                            ♥</button>
                     </div>
                 )
             })}
-            <Outlet />
         </div>
     );
 };
 export default Products;
-// localStorage.getItem==null?addToLS(zpid):removeFromLS(zpid)
